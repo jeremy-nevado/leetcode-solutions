@@ -14,3 +14,6 @@ class Solution:
             curr.append(1)
             res.append(curr)
         return res
+
+class Hello ():
+    print 'Incorrect Syntax'
