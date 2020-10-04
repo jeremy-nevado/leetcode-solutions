@@ -125,7 +125,6 @@ class Solution:
         # Returns +1 to account for missed iteration. To Be Fixed
         return sems + 1
 
+
 sol = Solution()
 print(sol.minNumberOfSemesters(12, [[1,2],[1,3],[7,5],[7,6],[4,8],[8,9],[9,10],[10,11],[11,12]], 2))
-
-            

@@ -9,12 +9,11 @@ class MinStack:
     def push(self, x):
         self.stack["top"] = x
         self.stack[x] = None
-        if stack[small] > x:
-            stack[small] = x;
+        if self.stack["small"] > x:
+            self.stack["small"] = x
 
     def pop(self):
         return None
-        
 
     def top(self):
         return self.stack["top"]
